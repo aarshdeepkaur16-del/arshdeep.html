@@ -1,9 +1,118 @@
-My name is Arshdeep Kaur, I'm from India, my skills are in Python, Java, and website development, and my hobbies are reading, listening music. 
 
-my name is Dhrumi shah
-I am from india
-I have 1 year experience in web developing
-my mainly duty is like develop website with fullstack developing
-my hobby is reading, travelling and dancing
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Team Profiles</title>
 
-My name is Jaimin. I am from India and my hobbies are UX design and cooking.
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #17365d;
+        }
+
+        .team {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .profile {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #cccccc;
+        }
+
+        .profile img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h2 {
+            color: #2874a6;
+        }
+
+        @media (max-width: 650px) {
+            .team {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .team {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Meet Our Team</h1>
+    <p>Welcome to our team portfolio website!</p>
+
+    <div class="team">
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 1">
+            <h2>Arshdeep Kaur</h2>
+            <p><b>About:</b> I am an IT student.</p>
+            <p><b>Skills:</b> HTML, CSS, Python</p>
+            <p><b>Hobbies:</b> Music, Travelling</p>
+        </div>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 2">
+            <h2>Dhrumi Shah</h2>
+            <p><b>About:</b> I love technology.</p>
+            <p><b>Skills:</b> Java, Python, SQL</p>
+            <p><b>Hobbies:</b> Reading, Sports</p>
+        </div>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 3">
+            <h2>Arpanpreet Kaur</h2>
+            <p><b>About:</b> I enjoy programming.</p>
+            <p><b>Skills:</b> HTML, JavaScript</p>
+            <p><b>Hobbies:</b> Photography, Music</p>
+        </div>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 4">
+            <h2>Harshdeep Singh</h2>
+            <p><b>About:</b> I am interested in networking.</p>
+            <p><b>Skills:</b> Networking, Linux</p>
+            <p><b>Hobbies:</b> Gaming, Travelling</p>
+        </div>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 5">
+            <h2>Jamin</h2>
+            <p><b>About:</b> I am interested in cybersecurity.</p>
+            <p><b>Skills:</b> Security, Python</p>
+            <p><b>Hobbies:</b> Learning, Reading</p>
+        </div>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/110" alt="Person 6">
+            <h2>Prit</h2>
+            <p><b>About:</b> I enjoy learning new skills.</p>
+            <p><b>Skills:</b> Communication, Teamwork</p>
+            <p><b>Hobbies:</b> Cooking, Art</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
